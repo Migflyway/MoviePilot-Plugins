@@ -12,17 +12,17 @@ from app.utils.web import WebUtils
 
 class MediaServerMsg(_PluginBase):
     # 插件名称
-    plugin_name = "媒体库服务器通知"
+    plugin_name = "媒体库服务器通知-极"
     # 插件描述
     plugin_desc = "发送Emby/Jellyfin/Plex服务器的播放、入库等通知消息。"
     # 插件图标
     plugin_icon = "mediaplay.png"
     # 插件版本
-    plugin_version = "1.5"
+    plugin_version = "1.0"
     # 插件作者
-    plugin_author = "jxxghp"
+    plugin_author = "miglfy"
     # 作者主页
-    author_url = "https://github.com/jxxghp"
+    author_url = "https://github.com/Migflyway"
     # 插件配置项ID前缀
     plugin_config_prefix = "mediaservermsg_"
     # 加载顺序
@@ -53,7 +53,7 @@ class MediaServerMsg(_PluginBase):
         "item.rate": "标记了"
     }
     _webhook_images = {
-        "emby": "https://emby.media/notificationicon.png",
+        "emby": "https://img.zconnect.cn/pc_logo.png",
         "plex": "https://www.plex.tv/wp-content/uploads/2022/04/new-logo-process-lines-gray.png",
         "jellyfin": "https://play-lh.googleusercontent.com/SCsUK3hCCRqkJbmLDctNYCfehLxsS4ggD1ZPHIFrrAN1Tn9yhjmGMPep2D9lMaaa9eQi"
     }
